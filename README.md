@@ -56,16 +56,14 @@ By integrating **AI-powered image recognition** and **real-time data sharing**, 
 
 ---
 
-## 🧱 System Architecture  
+## 🧱 System Architecture
 
 ```mermaid
 graph TD
-A[Flutter Mobile App] -->|API Calls| B[.NET Backend]
-B -->|Data Storage| C[Firebase Database]
-B --> D[Laravel Admin Portal]
-C --> D
-D -->|Heatmap Visualization| E[Security Staff Dashboard]
-A -->|Emergency Contact| F[UTM Security Team]
+    A[Flutter Mobile App] -->|API Calls| B[.NET Backend]
+    B -->|Data Storage| C[Firebase Database]
+    B --> D[Laravel Admin Portal]
+    C --> D
+    D -->|Heatmap Visualization| E[Security Staff Dashboard]
+    A -->|Emergency Contact| F[UTM Security Team]
 
-
-git clone https://github.com/<your-org>/utm-e-report-system.git
