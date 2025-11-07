@@ -1,4 +1,4 @@
-/AI/venv
+/AI/.venv
 /AI/Image/*.jpg
 /AI/Upscaled_Results/*.jpg
 /AI/Suspicious_Identifier/__pycache__/
