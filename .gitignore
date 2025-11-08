@@ -1,10 +1,3 @@
-/AI/.venv
-/AI/Image/*.jpg
-/AI/Upscaled_Results/*.jpg
-/AI/Suspicious_Identifier/__pycache__/
-/AI/gfpgan
-/AI/Suspicious_Identifier/gfpgan
-
 # Miscellaneous
 *.class
 *.log
@@ -18,12 +11,29 @@
 .svn/
 .swiftpm/
 migrate_working_dir/
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+Thumbs.db
 
 # IntelliJ related
 *.iml
 *.ipr
 *.iws
 .idea/
+
+# AI related
+/AI/.venv
+/AI/Image/*.jpg
+/AI/Upscaled_Results/*.jpg
+/AI/Suspicious_Identifier/__pycache__/
+/AI/gfpgan
+/AI/Suspicious_Identifier/gfpgan
 
 # Flutter/Dart/Pub related
 **/doc/api/
@@ -45,3 +55,25 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Ignore build/cache folders used by Vite/JS
+/node_modules
+/.vite/
+/.vite/deps
+
+# Laravel Files
+/Laravel/*.log
+/Laravel/.git
+/Laravel/.env
+/Laravel/.env.backup
+/Laravel/.env.production
+/Laravel/auth.json
+/Laravel/vendor/
+/Laravel/node_modules/
+/Laravel/public/build
+/Laravel/public/hot
+/Laravel/public/storage
+/Laravel/storage/*.key
+/Laravel/storage/pail
+/Laravel/Homestead.json
+/Laravel/Homestead.yaml
