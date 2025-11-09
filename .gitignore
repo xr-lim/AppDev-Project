@@ -23,23 +23,37 @@ migrate_working_dir/
 # is commented out by default.
 #.vscode/
 
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
+# Flutter/Dart/Pub related (UPDATED for sub-directory: utm_report_system)
+utm_report_system/**/doc/api/
+utm_report_system/**/ios/Flutter/.last_build_id
+utm_report_system/.dart_tool/
+utm_report_system/.flutter-plugins
+utm_report_system/.flutter-plugins-dependencies
+utm_report_system/.pub-cache/
+utm_report_system/.pub/
+utm_report_system/build/
 
-# Symbolication related
-app.*.symbols
+# Symbolication related (UPDATED for sub-directory: utm_report_system)
+utm_report_system/app.*.symbols
 
-# Obfuscation related
-app.*.map.json
+# Obfuscation related (UPDATED for sub-directory: utm_report_system)
+utm_report_system/app.*.map.json
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# Android Studio will place build artifacts here (UPDATED for sub-directory: utm_report_system)
+utm_report_system/android/app/debug
+utm_report_system/android/app/profile
+utm_report_system/android/app/release
+
+# Additional common Flutter ignores that might be useful
+utm_report_system/ios/.symlinks
+utm_report_system/ios/Flutter/Generated.xcconfig
+utm_report_system/ios/Pods/
+utm_report_system/ios/Runner/*.xcworkspace/contents.xcworkspacedata
+utm_report_system/ios/Runner/GeneratedPluginRegistrant.*
+utm_report_system/ios/Runner/project.xcworkspace/
+utm_report_system/ios/Runner.xcodeproj/project.pbxproj
+utm_report_system/ios/Runner.xcodeproj/xcuserdata/
+utm_report_system/web/
+utm_report_system/macos/
+utm_report_system/linux/
+utm_report_system/windows/
