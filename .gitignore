@@ -32,7 +32,7 @@ utm_report_system/.flutter-plugins-dependencies
 utm_report_system/.pub-cache/
 utm_report_system/.pub/
 utm_report_system/build/
-
+utm_report_system/.env
 # Symbolication related (UPDATED for sub-directory: utm_report_system)
 utm_report_system/app.*.symbols
 
