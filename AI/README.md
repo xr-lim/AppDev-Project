@@ -65,7 +65,6 @@ cd Suspicious_Identifier
 uvicorn FastAPI:app --reload
 ```
 
-Access the interactive documentation at: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
 ## 🛠️ API Usage
 
