@@ -4,6 +4,14 @@ use Inertia\Inertia;
 use Illuminate\Support\Facades\Route;
 
 // ------------------------------
+// Welcome / Home Page
+// ------------------------------
+
+Route::get('/', function () {
+    return Inertia::render('Welcome');
+})->name('home');
+
+// ------------------------------
 // Authentication Pages (React)
 // ------------------------------
 
