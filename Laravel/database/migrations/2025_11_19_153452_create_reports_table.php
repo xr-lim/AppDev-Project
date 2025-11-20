@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('type'); // 'traffic' or 'suspicious'
             $table->text('description')->nullable();
             $table->string('location')->nullable();
-            $table->string('image_path'); // 存储图片路径
+            $table->string('image_path'); // Store image file path
             $table->string('status')->default('pending'); // pending, reviewed, resolved
             $table->timestamps();
         });
